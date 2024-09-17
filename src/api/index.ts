@@ -2,7 +2,7 @@ import axios, { AxiosInstance, AxiosResponse, AxiosError, InternalAxiosRequestCo
 
 const instance: AxiosInstance = axios.create({
   // @ts-ignore
-  baseURL: "http://localhost:3000/api/v1",
+  baseURL: "https://pbarapp-api-production.up.railway.app/api/v1",
 });
 
 instance.interceptors.request.use(
