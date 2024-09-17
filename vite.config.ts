@@ -5,7 +5,6 @@ import path from "node:path";
 // https://vitejs.dev/config/
 // @ts-ignore
 export default ({ mode }) => {
-  console.log(mode);
   process.env = Object.assign(process.env, loadEnv(mode, process.cwd(), ""));
 
   return defineConfig({
